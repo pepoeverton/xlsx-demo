@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Demo XLSX</title>
+	<link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 class="title-center">Import Excel</h1>
+	<table class="table-default" cellspacing="0">
+		<thead id="table-head"></thead>
+		<tbody id="table-body"></tbody>
+	</table>
+	<div class="drop">
+		<span class="input-fake">Enviar arquivo</span>
+		<span class="input-msg">Ou arraste e solte o arquivo aqui(.excel)</span>
+		<input type="file" name="enviar" class="input-file"></input>
+	</div>
+	<script src="node_modules/xlsx/dist/jszip.js"></script>
+	<script src="node_modules/xlsx/dist/xlsx.min.js"></script>
+	<script src="node_modules/ssf/ssf.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
